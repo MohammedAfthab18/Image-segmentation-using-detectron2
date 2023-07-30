@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Comparator;
 
 class Interval {
     int start;
@@ -10,10 +11,10 @@ class Interval {
     }
 }
 
-public class MeetingRooms {
-    public boolean canHeAttend(Interval[] intervals) {
-        // Sort the intervals by start time
-        Arrays.sort(intervals, (x, y) -> x.start - y.start);
+public class Solution {
+    public boolean MeetingRooms(Interval[] intervals) {
+        // Sort the intervals by start time using Comparator.comparingInt
+        Arrays.sort(intervals, Comparator.comparingInt(interval -> interval.start));
 
         // Check for overlapping intervals
         for (int i = 1; i < intervals.length; i++) {
