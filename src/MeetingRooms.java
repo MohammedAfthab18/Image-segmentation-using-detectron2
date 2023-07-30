@@ -11,8 +11,8 @@ class Interval {
     }
 }
 
-public class Solution {
-    public boolean MeetingRooms(Interval[] intervals) {
+public class MeetingRooms {
+    public boolean canHeAttend(Interval[] intervals) {
         // Sort the intervals by start time using Comparator.comparingInt
         Arrays.sort(intervals, Comparator.comparingInt(interval -> interval.start));
 
