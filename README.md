@@ -1,8 +1,5 @@
 # 🚀 Object and Instance Segmentation with Detectron2
 
-![Balloon Example](![image](https://github.com/MohammedAfthab18/Image-segmentation-using-detectron2/assets/85329977/85f32021-3d64-418e-9de0-89ca313bb3d1)
-)
-
 This project showcases the power of Detectron2 for both object detection and instance segmentation tasks, allowing you to detect and segment objects in images with ease.
 
 ## 👋 Introduction
